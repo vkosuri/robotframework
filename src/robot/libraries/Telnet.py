@@ -324,7 +324,7 @@ class Telnet(object):
         | Library     | Telnet    | 5 seconds                |                      |                     | # set only timeout |
         | Library     | Telnet    | newline=LF               | encoding=ISO-8859-1  |                     | # set newline and encoding using named arguments |
         | Library     | Telnet    | prompt=$                 |                      |                     | # set prompt |
-        | Library     | Telnet    | prompt=(> |# )           | prompt_is_regexp=yes |                     | # set prompt as a regular expression |
+        | Library     | Telnet    | prompt=(> |# )           | prompt_is_regexp=true|                     | # set prompt as a regular expression |
         | Library     | Telnet    | terminal_emulation=True  | terminal_type=vt100  | window_size=400x100 | # use terminal emulation with defined window size and terminal type |
         | Library     | Telnet    | telnetlib_log_level=NONE |                      |                     | # disable logging messages from the underlying telnetlib |
         """
